@@ -61,16 +61,19 @@
         </HorizontalStackLayout>
         <Label 
             Text="Wynik tego losowania:"
+            x:Name="WynikLosowania"
             HorizontalOptions="Center"
             Margin="0, 3, 0, 10"
             />
         <Label 
             Text="Wynik gry:"
+            x:Name="WynikGry"
             HorizontalOptions="Center"
             Margin="0, 3, 0, 10"
             />
         <Button 
             Text="RESETUJ WYNIK"
+            Clicked="ResetDice"
             BackgroundColor="Chocolate"
             HorizontalOptions="Center"
             Margin="0, 3, 0, 10"
